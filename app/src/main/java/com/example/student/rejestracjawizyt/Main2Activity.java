@@ -30,7 +30,7 @@ public class Main2Activity extends AppCompatActivity {
         lista.add(new Lekarz("Anna Nowak","chirurg"));
         lista.add(new Lekarz("Monika Nijaka","anestezjolog"));
         lista.add(new Lekarz("Krzysztof Blabla","pediatra"));
-        
+
 
         LekarzAdapter lekarzAdapter = new LekarzAdapter(lista);
         recView.setAdapter(lekarzAdapter);

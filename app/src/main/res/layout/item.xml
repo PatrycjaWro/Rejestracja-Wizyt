@@ -7,7 +7,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Jan Kowalski"
-        android:id="@+id/nazwisko"
+        android:id="@+id/nazwiskoLekarza"
         android:textColor="@color/colorAccent"
         android:gravity="center"
         android:layout_marginLeft="30dp"
@@ -17,7 +17,7 @@
         />
 
     <TextView
-        android:id="@+id/specjalizacja"
+        android:id="@+id/specjalizacjaLekarza"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/button_wybierz"
@@ -31,7 +31,7 @@
         android:id="@+id/button_wybierz"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/nazwisko"
+        android:layout_below="@+id/nazwiskoLekarza"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="28dp"
         android:background="@color/colorPrimary"
