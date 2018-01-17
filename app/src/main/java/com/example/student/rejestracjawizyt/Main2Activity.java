@@ -12,7 +12,7 @@ import butterknife.ButterKnife;
 
 public class Main2Activity extends AppCompatActivity {
     @BindView(R.id.recyclerView)
-    RecyclerView recView;
+    RecyclerView list;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +22,7 @@ public class Main2Activity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
-        recView.setLayoutManager(layoutManager);
+        list.setLayoutManager(layoutManager);
 
         ArrayList<Lekarz> lista = new ArrayList<>();
 
@@ -33,7 +33,7 @@ public class Main2Activity extends AppCompatActivity {
 
 
         LekarzAdapter lekarzAdapter = new LekarzAdapter(lista);
-        recView.setAdapter(lekarzAdapter);
+        list.setAdapter(lekarzAdapter);
 
 
     }
